@@ -1,0 +1,10 @@
+29/09/22
+Backend Infrastructure  requirements for eCommerce project
+1.) S3 - Product Images 
+2.) RDS (MySQL provision - db.t2.medium - 2 (1 for existing, 1 for new functionalities) 
+	[ wishlist: Aurora-serverless]
+3.) 5 containers approx - ECS (fargate) vs EKS ?
+4.) Kinesis (aws in-house kafka based service - can be used for data collection)
+5.) EMR (for Spark) 
+6.) T3 small search (free version upto 750 hours) - Open Search
+7.) HDFS cluster (S3)
